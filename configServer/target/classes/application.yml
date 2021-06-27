@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/007-is-life/aiSpringCloud.git
+          searchPaths: config
+          username: 007-is-life
+          password: 5190689y
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

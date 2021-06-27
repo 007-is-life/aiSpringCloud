@@ -14,6 +14,7 @@
         <module name="configServer" />
         <module name="Zuul" />
         <module name="ribbon" />
+        <module name="configClient" />
         <module name="nativeConfigClient" />
         <module name="eurekaServer" />
         <module name="feign" />
@@ -28,6 +29,7 @@
       <module name="Consumer" options="-parameters" />
       <module name="Zuul" options="-parameters" />
       <module name="aiSpringCloud" options="-parameters" />
+      <module name="configClient" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="eurekaClient" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />

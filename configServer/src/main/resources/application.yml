@@ -2,15 +2,15 @@ server:
   port: 8888
 spring:
   application:
-    name: configserver
+    name: configServer
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/southwind9801/aispringcloud.git
+          uri: https://github.com/007-is-life/aiSpringCloud.git
           searchPaths: config
-          username: root
-          password: root
+          username: 007-is-life
+          password: 5190689y
       label: master
 eureka:
   client:
